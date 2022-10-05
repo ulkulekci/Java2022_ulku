@@ -5,6 +5,10 @@ public class Product {
 	private String name;
 	private double unitPrice;
 	
+	public Product() {
+		
+	}
+	
 	public Product(int id, String name, double unitPrice) {
 		super();
 		this.id = id;
